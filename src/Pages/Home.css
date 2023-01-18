@@ -1,0 +1,14 @@
+
+
+@media screen and (max-width:600px) {
+.hero{
+ margin: 0 0 0 2rem ;
+ max-width: 100%;
+}
+ .quick-buy{
+    position: absolute;
+    margin-left: 2rem;
+    top:35%;
+    width: 50%;
+}
+}

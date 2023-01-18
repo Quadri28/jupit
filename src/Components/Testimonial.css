@@ -1,0 +1,50 @@
+
+.testimonial{
+    background-image: url('../images/rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.testimonial p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.image{
+    transform: translateX(-50%);
+}
+.testimonial-card{
+    width:700px;
+}
+
+
+
+@media screen and (max-width:978px) {
+    .testimonial h2{
+        width: 40% !important;
+        
+    }
+    .testimonial-card{
+        width: 543px;
+    }
+    .testimonial p{
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width:640px) {
+    
+    .testimonial h2{
+        width: 60% !important;
+    }
+    .testimonial p{
+        width: 60% !important;
+
+    }
+    .testimonial-card{
+        width: 50%;
+    }
+}

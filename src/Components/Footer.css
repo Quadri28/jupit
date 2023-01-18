@@ -1,0 +1,16 @@
+
+.footer{
+    background-image: url('../images/rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 5% 3%;
+    margin-top: 3rem;
+}
+
+.icons{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}

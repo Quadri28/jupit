@@ -1,0 +1,29 @@
+
+.medium-rectangle{
+    background-image: url('../images/rectangle.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:680px) {
+    .medium-rectangle img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .medium-rectangle h2{
+        width: 90%;
+        font-size: 20px !important;
+        font-weight: 400;
+    }
+    .btc{
+        top: -7% !important;
+    }
+    .naira{
+        top: 7% !important;
+    }
+    .eth{
+        top: 90% !important;
+    }
+}
